@@ -1,0 +1,96 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.line{
+  display: flex;
+  gap: 4px;
+}
+
+.tile{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.box{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    color: #721c24;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid darkgray;
+}
+
+.correct{
+  background-color: lightgreen;
+}
+
+.close {
+  background-color: yellow;
+}
+
+.incorrect {
+  background-color: lightgrey;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.5s;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
